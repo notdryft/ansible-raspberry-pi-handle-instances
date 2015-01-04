@@ -9,3 +9,7 @@
   action: group
           name=pi
           state=absent
+
+- name: Delete default user home
+  file: path=/home/pi
+        state=absent
