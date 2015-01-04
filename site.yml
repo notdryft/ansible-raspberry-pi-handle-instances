@@ -1,0 +1,9 @@
+---
+
+- hosts: pis
+  user: notdryft
+
+  roles:
+    - qemu
+    - users
+    - editors

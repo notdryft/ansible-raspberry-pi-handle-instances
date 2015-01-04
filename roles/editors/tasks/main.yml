@@ -1,0 +1,7 @@
+---
+
+- name: Remove nano
+  apt: pkg=nano state=absent update_cache=true
+
+- name: Install vim
+  apt: pkg=vim state=present update_cache=true

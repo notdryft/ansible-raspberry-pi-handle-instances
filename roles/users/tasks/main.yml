@@ -1,0 +1,11 @@
+---
+
+- name: Delete default user
+  action: user
+          name=pi
+          state=absent
+
+- name: Delete default group
+  action: group
+          name=pi
+          state=absent

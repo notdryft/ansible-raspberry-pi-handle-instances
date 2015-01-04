@@ -1,0 +1,5 @@
+---
+
+- name: Delete udev qemu rules
+  file: name=/etc/udev/rules.d/90-qemu.rules
+        state=absent
